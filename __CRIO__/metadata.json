@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "module_id": "ME_QPROFILE_MODULE_BACKEND_INTEGRATION",
+=======
+  "module_id": "ME_QPROFILE_MODULE_DEPLOYMENT",
+>>>>>>> 77b27ef0802df248be02e76675d6638606bae641
   "me_id": "ME_QPROFILE"
 }
 
