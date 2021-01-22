@@ -1,0 +1,30 @@
+
+#experience .experience { margin-top: 3rem; margin-bottom: 20px; }
+#experience .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#experience .experience h4 { display: block; padding-top: 8px; margin-bottom: 10px; font-size: 2rem;}
+#experience .experience .experience-details { display: block; margin-top: 6px; }
+#experience .experience .experience-details * { color: #22A39F; }
+#experience .experience .experience-details .seperator { color: #BCBCBC; }
+
+#experience h2, #abilities h2, #projects h2{
+    padding-top: 2rem;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#experience h3{
+      text-align:left;
+      font-family: 'Montserrat', sans-serif;
+      color: #11999E;
+      font-size: 2.5rem;
+}
+
+.hidden-phone{
+      font-size: 1.75rem;
+      text-align: center;
+}

@@ -1,0 +1,121 @@
+import styled from "styled-components";
+
+export const IntroWrapper = styled.div`
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+`;
+
+export const Details = styled.div`
+  flex: 1;
+
+  @media (max-width: 960px) {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .name{
+    margin:100px;
+  }
+
+  h1 {
+    margin: 2rem;
+    font-size: 36pt; // TODO: change the font size to 36
+    color: ${({ theme }) => (theme === "light" ? "#212121" : "#fff")};
+
+    @media (max-width: 960px) {
+      mix-blend-mode: ${({ theme }) =>
+        theme === "light" ? "unset" : "difference"};
+    }
+
+    @media (max-width: 680px) {
+      font-size: 30pt;
+    }
+  }
+
+  h4 {
+    margin-bottom: 2.5rem;
+    font-size: 32pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: ${({ theme }) => (theme === "light" ? "#707070" : "#e6e6e6")};
+
+    @media (max-width: 960px) {
+      mix-blend-mode: ${({ theme }) =>
+        theme === "light" ? "unset" : "difference"};
+    }
+
+    @media (max-width: 680px) {
+      font-size: 26pt;
+    }
+  }
+
+  .intro-container{
+    margin-bottom:75px;
+  }
+
+  .wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  .hire-me {
+    background: ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+    margin-right: 20px;
+    border: 3px solid
+      ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+    font-weight: bold;
+  }
+  .view-cv {
+    background: transparent;
+    color: ${({ theme }) => (theme === "light" ? "#005554" : "#66BD88")};
+    border: 3px solid #005554;
+    font-weight: bold;
+  }
+  .social {
+    margin-top: 50px;
+  }
+  .social a img {
+    margin-right: 15px;
+  }
+
+  @media screen and (max-width: 360px) and (min-width:210px){
+    .dJcsAm{
+      margin: 20px;
+    }
+  }
+`;
+
+export const Thumbnail = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+
+  img {
+    width: 70%;
+  }
+`;

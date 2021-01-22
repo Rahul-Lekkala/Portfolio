@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Rammetto+One&family=Sacramento&display=swap);
+
+body {
+      color:#40514E;
+      margin: 0;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      font-size:1.5rem;
+    }
+    
+    h1 {
+      margin: 50px auto 50px auto;
+      font-size: 5.625rem;
+      /*font-family: 'Sacramento', cursive;*/
+      font-family: 'Rammetto One', cursive;
+      color: #66BFBF;
+      line-height: 2;
+    }
+    
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3.5rem;
+      color: #66BFBF;
+      font-weight: normal;
+      font-weight: bold;
+    }
+    
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: #11999E;
+    }
+
+    h4{
+      font-size:1rem;
+    }
+
+    a:hover {
+            color: white;
+            text-decoration: none;
+      }
+    
